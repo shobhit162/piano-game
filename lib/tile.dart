@@ -23,7 +23,7 @@ class Tile extends StatelessWidget {
   Color get color {
     switch (state) {
       case NoteState.ready:
-        return Colors.black;
+        return Colors.blue;
       case NoteState.tapped:
         return Colors.white10;
       case NoteState.missed:
